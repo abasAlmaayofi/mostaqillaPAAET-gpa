@@ -9,7 +9,7 @@ function Header() {
 
   return (
     <>
-      <div className="w-screen py-2 flex justify-between items-center px-16  bg-[#163450]">
+      <div className="w-screen py-1 flex justify-between items-center md:px-16 px-8  bg-[#163450]">
         <div>
           <Image src={Logo} height={130} width={130} />
         </div>
