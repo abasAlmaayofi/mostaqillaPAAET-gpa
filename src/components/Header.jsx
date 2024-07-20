@@ -19,13 +19,13 @@ function Header() {
       </div>
       {/* sidebar */}
       <div
-        className={`absolute inset-0 bg-[#163450] z-30 flex flex-col justify-start items-end pt-12 md:pr-28 pr-12 gap-10 ${
+        className={`absolute inset-0 bg-[#163450] z-30 flex flex-col justify-start items-end md:pt-12 pt-1 md:pr-28 pr-12 gap-10 ${
           showSidebar ? "flex" : "hidden"
         }`}
       >
         <span
           onClick={() => setShowSidebar(false)}
-          className="pb-8 cursor-pointer"
+          className="md:pb-8 pb-3 cursor-pointer"
         >
           <IoMdClose color="white" size={25} />
         </span>
