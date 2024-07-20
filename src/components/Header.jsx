@@ -19,7 +19,7 @@ function Header() {
       </div>
       {/* sidebar */}
       <div
-        className={`absolute inset-0 bg-[#163450] z-30 flex flex-col justify-start items-end pt-12 pr-28 gap-10 ${
+        className={`absolute inset-0 bg-[#163450] z-30 flex flex-col justify-start items-end pt-12 md:pr-28 pr-12 gap-10 ${
           showSidebar ? "flex" : "hidden"
         }`}
       >
@@ -31,28 +31,28 @@ function Header() {
         </span>
         <Link
           href="http://mostaqillapaaet.com/#Welcome"
-          className="text-white underline text-5xl"
+          className="text-white underline md:text-5xl text-3xl"
         >
           الصفحة الترحيبية
         </Link>
         <Link
           href="https://mostaqillapaaet.com/wp-content/uploads/2024/07/efbfbdefbfbdd8a5d986d8acd8a7d8b2d8a7d8aa-d8a7d984d982d8a7d8a6d985d8a9-d8a7d984d985d8b3d8aad982d984d8a9-d981d98a-d8a7d984d8aad8b7d8a8d98ad982d98aefbfbd.pdf"
-          className="text-white underline text-5xl"
+          className="text-white underline md:text-5xl text-3xl"
         >
           إنجازات ومطالبات القائمة{" "}
         </Link>
-        <Link href="#" className="text-white underline text-5xl">
+        <Link href="#" className="text-white underline md:text-5xl text-3xl">
           حساب المعدل التراكمي
         </Link>
         <Link
           href="http://mostaqillapaaet.com/#generalInformation"
-          className="text-white underline text-5xl"
+          className="text-white underline md:text-5xl text-3xl"
         >
           ملفات عامة
         </Link>
         <Link
           href="https://mostaqillapaaet.com/guidelines-videos/"
-          className="text-white underline text-5xl"
+          className="text-white underline md:text-5xl text-3xl"
         >
           فيديوهات
         </Link>
