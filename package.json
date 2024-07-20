@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://abasAlmaayofi.github.io/mostqillaPAAET_gpa/",
+  "homepage": "https://abasAlmaayofi.github.io/mostaqillaPAAET-gpa/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
