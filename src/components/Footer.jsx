@@ -17,7 +17,7 @@ function Footer() {
       </div>
       <div className="flex gap-8 pt-12">
         <Link
-          href="https://www.instagram.com/grouppaaet/"
+          href="https://www.instagram.com/grouppaaet0/"
           className="cursor-point"
         >
           <IoLogoInstagram color="white" size={20} />
