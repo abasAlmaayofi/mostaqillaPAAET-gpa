@@ -1,6 +1,5 @@
 import Header from "./components/Header";
 import Footer from "./components/Footer";
-import GPA from "./components/gpa";
 import Slogan from "./components/Slogan";
 import GPACalculator from "./components/GPACalculator";
 
