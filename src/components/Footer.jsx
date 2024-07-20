@@ -8,10 +8,10 @@ import { FaXTwitter } from "react-icons/fa6";
 
 function Footer() {
   return (
-    <div className="w-screen py-2 flex justify-between items-start px-20  bg-[#163450]">
+    <div className="w-screen py-2 flex justify-between items-start md:px-20 px-6  bg-[#163450]">
       <div className="flex flex-col gap-4">
-        <Image src={Logo} height={130} width={130} />
-        <p className="text-white text-sm">
+        <Image src={Logo} height={90} width={90} />
+        <p className="text-white md:text-sm text-xs">
           جميع الحقوق محفوظة لقائمة المستقلة | التطبيقي
         </p>
       </div>

@@ -8,7 +8,7 @@ export default function Admin() {
     <>
       <main>
         <Header />
-        <div className="w-screen min-h-[540px] flex items-start py-8 md:px-20 justify-between  md:flex-row flex-col px-12">
+        <div className="w-screen min-h-[540px] flex md:items-start py-8 md:px-20 justify-between items-center  md:flex-row flex-col px-6">
           <GPACalculator />
           <Slogan />
         </div>
